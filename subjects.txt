@@ -1,0 +1,8 @@
+Limite de temps : 1000 ms
+Limite de mémoire : 524288 ko
+Étant donné un tableau d'entiers, votre tâche consiste à compter le nombre de sous-tableaux ayant une somme de .
+Entrée
+La première ligne d'entrée contient deux entiers et : la taille du tableau et la somme cible .
+La ligne suivante contient entiers : le contenu du tableau.
+Sortie
+Imprimez un entier : le nombre requis de sous-tableaux. ```

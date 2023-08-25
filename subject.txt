@@ -1,0 +1,8 @@
+La première ligne contient un entier T (0 <= T <= 106).
+Chacune des T lignes suivantes contient une requête selon ces formats.
+1 n : Empiler n (0 < n <= 109) en haut de la pile.
+2 : Dépiler un élément du haut de la pile. Si la pile est vide, ne rien faire.
+3 : Afficher l'élément en haut de la pile (voir le format de sortie).
+
+Sortie
+Pour chaque requête 3, afficher l'élément en haut de la pile. Si la pile est vide, afficher 'Vide!' sans guillemets.
