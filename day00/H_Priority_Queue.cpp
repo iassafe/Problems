@@ -1,12 +1,12 @@
 #include <iostream>
 #include <queue>
-#define ll long long
+#include<vector>
 using namespace std;
 
 int main()
 {
     int n_stk;
-    ll  k;
+    int k;
     int task;
     int stack;
     int nb_push;

@@ -1,21 +1,20 @@
 #include <iostream>
 #include <stack>
 #include <string>
-using namespace std;
 
 
 int main() 
 {
     int n;
     int i;
-    cin >> n;
-    cin.ignore();
+    std::cin >> n;
+    std::cin.ignore();
 
     while(n > 0)
     {
-        string line;
-        getline(cin, line);
-        stack<char> stk;
+        std::string line;
+        std::getline(std::cin, line);
+        std::stack<char> stk;
         i = 0;
         while(line[i])
         {
@@ -30,9 +29,9 @@ int main()
             i++;
         }
         if (stk.empty() && line[i] == '\0')
-            cout << "Yes" << "\n";
+            std::cout << "Yes" << "\n";
         else
-            cout << "No" << "\n";
+            std::cout << "No" << "\n";
         n--;
     }
     return 0;
